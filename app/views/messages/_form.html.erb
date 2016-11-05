@@ -1,6 +1,6 @@
 <div class="panel panel-default">
     <div class="panel-heading">
-        メッセージを投稿
+        メッセージを<%= @post_type %>
     </div>
     <div class="panel-body">
         <%= form_for @message, html: { class: "form-horizontal center"} do |f| %>
